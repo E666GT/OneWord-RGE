@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FarmWidget</class>
+ <widget class="QWidget" name="FarmWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1681</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="FarmIntroGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1621</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Devanagari</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>介绍</string>
+   </property>
+   <widget class="QLabel" name="DebugLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>401</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>欢迎回到你的单词农场！不要荒废哦~</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GoMainWindowButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>浇水去！</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="FarmInfotextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>251</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FarmInfoUpdatepushButton">
+    <property name="geometry">
+     <rect>
+      <x>1520</x>
+      <y>130</y>
+      <width>75</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>刷新数据</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="FarmInfotextBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>20</y>
+      <width>251</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="FarmInfotextBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>20</y>
+      <width>251</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="FarmInfotextBrowser_4">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>20</y>
+      <width>311</width>
+      <height>141</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>DebugLabel</zorder>
+   <zorder>GoMainWindowButton</zorder>
+   <zorder>FarmInfotextBrowser</zorder>
+   <zorder>FarmInfotextBrowser_2</zorder>
+   <zorder>FarmInfotextBrowser_3</zorder>
+   <zorder>FarmInfotextBrowser_4</zorder>
+   <zorder>FarmInfoUpdatepushButton</zorder>
+  </widget>
+  <widget class="QGroupBox" name="FarmDetailGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>1621</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Devanagari</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>农场</string>
+   </property>
+   <widget class="QScrollArea" name="FarmDetailScrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>1601</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="FarmDetailScrollAreaContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1582</width>
+       <height>5000</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>5000</height>
+      </size>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1581</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="FarmDetailScrollAreaGridLayout"/>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="FreshFarmButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新健康</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FreshFarmByHealthOrderButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>170</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>按健康排序</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

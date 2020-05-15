@@ -1,0 +1,12 @@
+/downloads
+/build
+/dist
+/test
+/test_big_dir
+
+main_back*
+
+pandas_test.py
+pandas_test2.py
+/备份
+*.exe
